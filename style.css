@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+
+  body{
+    background-color: #222;
+    margin: 20px auto;
+  }
+
+
+  .container{
+      width: 90%;
+      max-width: 470px;
+      background: rgb(14,117,119);
+      background: linear-gradient(0deg, rgba(14,117,119,1) 11%, rgba(45,253,174,0.8268557422969187) 77%);
+      padding: 50px 10px;
+      border-radius: 20px;
+      margin: 20px auto 0;
+      color: #fff;
+      text-align: center;
+  }
+
+  .container input[type=text] {
+    padding: 10px 20px;
+    height: 45px;
+    outline: none;
+    border:none;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    width: 70%;
+    
+  }
+
+  .container i{
+    font-size: 20px;
+    
+  }
+  .container button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+  .container-body{
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  .container-body i{
+    margin-top: 30px;
+    font-size: 48px;
+  }
+
+  .container-body .weather-no{
+    font-size: 26px;
+    margin-top: -40px;
+    font-weight:lighter;
+
+  }
+   .container-body .weather-no h4{
+    font-size: 14px;
+    font-weight: 100;
+   }
+  .container-body .city-name{
+    font-size: 28px;
+    margin-top: 5px;
+
+  }
+
+  .container .container-footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footer-item{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+  }
+
+  .footer-item img{
+    width: 40px;
+    height: 40px;
+    margin: 10px 20px;
+  }
+
+  .footer-item p:first-child{
+    font-size: 24px;
+    font-weight:400;
+  }
+
+  .footer-item p:last-child{
+    font-size: 14px;
+    font-weight: lighter;
+    
+  }

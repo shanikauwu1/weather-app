@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="searchbox">
+            <input type="text" name="city" id="cityName" placeholder="Enter the city" spellcheck="false" value="">
+            <button id="serchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+
+        <div class="container-body" id="content-body">
+            <!-- <i class="fa-solid fa-sun" id></i> -->
+            <div id="img-div"></div>
+           
+            
+
+            <div class="weather-no">
+               <h1><span class="tempture"></span>&degC</h1>
+               <h4>Feels like <span class="feels-tempture"></span> &degC</h4>
+            </div>
+            <div class="city-name" id="city-name"></div>
+        </div>
+
+
+        <div class="container-footer">
+            <div class="footer-item"> 
+                <img src="images/humidity.png" alt="">
+                <div>
+                    <p class="humidity">55</p>
+                <p>Humidity</p>
+              </div>
+            </div>
+            <div class="footer-item">
+                <img src="images/wind.png" alt="">
+                <div>
+                  <p class="wind-speed"></p>
+                <p> Wind Speed </p>
+               </div>
+                
+            </div>
+           
+            
+        </div>
+    </div>
+   
+
+</body>
+</html>
