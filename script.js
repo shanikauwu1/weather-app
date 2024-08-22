@@ -8,6 +8,14 @@ async function checkWeather(city) {
 const response=await fetch(apiUrl+`&appid=${apiKey}&q=${city}`);
 const data =await response.json();
 
+// error handling
+if(response.status==404){
+    document.querySelector('.error').style.display="block";
+}
+else{
+    document.querySelector('.error').style.display="none";
+}
+
 //console.log(data);
 const cityName=data.name;
 const temparature=data.main['temp'];

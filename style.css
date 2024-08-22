@@ -45,6 +45,15 @@
     border: none;
     border-radius: 10px;
   }
+
+  .error{
+    display: none;
+    font-size: small;
+    text-align: left;
+    width: 70%;
+    margin: 10px auto;
+    color: rgb(243, 39, 32);
+  }
   .container-body{
     margin: 40px 0;
     text-align: center;
